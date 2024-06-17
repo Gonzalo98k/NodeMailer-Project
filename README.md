@@ -1,8 +1,7 @@
-# React + Vite
+# Proyecto con NodeMailer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Proyecto de formulario donde se usa el mudulo nodemailer de nodejs para enviar correos a un usuario especíifico
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Debes de abrir la terminal con CTRL + Ñ. Y en la consola escribir el comando "npm run start"
+y el servidor ya estaría listo para funcionar, ahora entra en tu navegador y busca "http://localhost:5173" 
+y ya estaría listo para usar

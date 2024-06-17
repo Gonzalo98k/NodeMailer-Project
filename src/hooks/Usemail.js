@@ -12,7 +12,7 @@ export const Usemail = async (to, subject, text) => {
       auth: {
         user: `${process.env.CORREO}`, // Tu correo (debes de crear un archivo .env para poner ahí tus variables de entorno en este caso el CORREO)
         
-        pass: `${process.env.CONTRASEÑA}` // Debes de crear una contraseña de aplicaión con tu gmail (debes de crear un archivo .env para poner ahí tus variables de entorno en este caso la CONTRASEÑA)
+        pass: `${process.env.PASS}` // Debes de crear una contraseña de aplicaión con tu gmail (debes de crear un archivo .env para poner ahí tus variables de entorno en este caso la CONTRASEÑA)
       }
     });
 
